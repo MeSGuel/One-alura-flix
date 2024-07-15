@@ -14,7 +14,8 @@ const StyledFormSelect = styled.fieldset`
 
 const StyledLabel = styled.label`
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 6px;
     color: #FFFFFF;
     &.invalid{
         color: #AA0000;
@@ -30,7 +31,7 @@ const StyledSelect = styled.select`
     color: #FFFFFF;
     border: 3px solid ${(props) => props.$color};
     border-radius: 15px;
-    padding-left: 10px;
+    padding: 15px 15px;
     outline: none;
     &:invalid{
         color: #a5a5a5;

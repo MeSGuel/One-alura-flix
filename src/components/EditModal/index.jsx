@@ -13,14 +13,15 @@ const Overlay = styled.div`
 `
 
 const StyledDialog = styled.dialog`
-    position: absolute;
-    top: 380px;
-    left: 0%;
+    position: fixed;
+    top: 100px;
+    overflow-y: scroll;
+    height: 500px;
     width: 374px;
     background-color: #03122F;
     padding: 70px 0 60px 0;
-    border: 5px solid #6BD1FF;
-    border-radius: 15px;
+    border: 5px solid #9bd0e9;
+    border-radius: 10px;
     @media screen and (min-width: 1024px){
         width: 865px;
     }
@@ -29,11 +30,12 @@ const StyledDialog = styled.dialog`
 const StyledMoldaTitle = styled.h2`
     width: 100%;
     margin-bottom: 40px;
-    font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 2rem;
     color: #2271D1;
     text-align: center;
+    text-shadow: 1px 3px 1px black; 
+
     @media screen and (min-width: 1024px){
         font-size: 3.75rem;
         text-align: left;

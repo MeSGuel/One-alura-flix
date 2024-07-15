@@ -20,19 +20,20 @@ const StyledGameImage = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border: 5px solid ${(props) => props.$color};
-    border-radius: 4px 4px 0 0;
-    box-shadow: 0px 0px 17px 8px ${(props) => props.$color} inset;
+    border: 2px solid ${(props) => props.$color};
+    border-radius: 4px 15px 0 0;
+    box-shadow: 0px 0px 15px 2px ${(props) => props.$color} inset;
 `
 const StyledParagraph = styled.p`
     text-align: center;
-    background-color: #000000;
-    border-left: 5px solid ${(props) => props.$color};
-    border-right: 5px solid ${(props) => props.$color};
+    background-color: #130e0e6e;
+    border-left: 2px solid ${(props) => props.$color};
+    border-right: 2px solid ${(props) => props.$color};
     font-family: "Roboto",sans-serif;
     font-size: 1.25rem;
     font-weight: 400;
     padding: 10px 0;
+    text-shadow: 1px 3px 1px black;
 `
 
 const StyledCardButtonsContainer = styled.div`
@@ -42,12 +43,11 @@ const StyledCardButtonsContainer = styled.div`
     width: 100%;
     height: 50px;
     background-color: #000000;
-    border: 5px solid ${(props) => props.$color};
+    border: 2px solid ${(props) => props.$color};
     border-top: none;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0 0 2px 15px;
 `
 const StyledCardButton = styled.button`
-
     display: flex;
     align-items: center;
     gap: 20px;
@@ -55,9 +55,13 @@ const StyledCardButton = styled.button`
     border: none;
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-weight: 800;
+    font-weight: 500;
+    letter-spacing: 5px;
     font-size: 1rem;
     cursor: pointer;
+    &:hover {
+        letter-spacing: 8px;
+    }
 `
 
 const GameCard = ({color, game}) => {
@@ -66,8 +70,8 @@ const GameCard = ({color, game}) => {
         <StyledGameCard >
             <Link to={`/${game.id}`}>
                 <StyledGameImage $color={color} $bgImage={game.cover}/>
-                <StyledParagraph $color={color}>{game.title}</StyledParagraph>
             </Link>
+                <StyledParagraph $color={color}>{game.title}</StyledParagraph>
             <StyledCardButtonsContainer $color={color}>
                 <StyledCardButton onClick={() => gamesContext.deleteGame(game)}>
                     <img src={deleteIcon} alt="botão deletar video" />

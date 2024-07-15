@@ -6,10 +6,9 @@ import { GamesContext, useGamesContext } from "../../context/Games";
 const StyledNewCategoryForm = styled.form`
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 40px;
   width: 100%;
-  max-width: 575px;
-  margin: 0 auto;
 `;
 const StyledNewCategoryButton = styled.button`
   width: 180px;

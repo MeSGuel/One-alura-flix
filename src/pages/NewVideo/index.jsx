@@ -1,82 +1,79 @@
-import styled from "styled-components"
-import Form from "../../components/Form"
-import AddCategoryModal from "../../components/AddCategoryModal"
-import { useState } from "react"
-import { useGamesContext } from "../../context/Games"
+import styled from "styled-components";
+import Form from "../../components/Form";
+import AddCategoryModal from "../../components/AddCategoryModal";
+import { useState } from "react";
+import { useGamesContext } from "../../context/Games";
 
 const StyledNewVideoContainer = styled.section`
-    width: 100%;
-    max-width: 1440px;
-    margin: 90px auto 120px;
-    padding: 0 10px;
-    position: sticky;
-`
+  width: 100%;
+  max-width: 1440px;
+  margin: 90px auto 120px;
+  padding: 0 10px;
+  position: sticky;
+`;
 const StyledTitle = styled.h2`
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 2.5rem;
-    font-weight: 900;
-    color: #FFFFFF;
-    margin-bottom: 20px;
-`
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 1px 2px 1px black;
+  color: #ffffff;
+  margin-bottom: 20px;
+`;
 const StyledParagraph = styled.p`
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-bottom: 40px;
-`
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-shadow: 1px 2px 1px black;
+  color: #ffffff;
+  margin-bottom: 40px;
+`;
 const StyledFormContainer = styled.div`
-    padding: 0 50px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`
-const StyledSubTitle = styled.h3`
-    padding: 15px;
-    font-size: 2.25rem;
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    font-weight: 600;
-    border-top: 3px solid #393939;
-    border-bottom: 3px solid #393939;
-    margin-bottom: 20px;
-`
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 const StyledNewCategoryButton = styled.button`
-    position: absolute;
-    top: -80px;
-    right: 20px;
-    background-color: transparent;
-    border: 3px solid #FFFFFF;
-    border-radius: 10px;
-    padding: 20px;
-    color: #FFFFFF;
-    font-size: 1rem;
-` 
+  position: absolute;
+  top: -50px;
+  right: 20px;
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  box-shadow: 2px 3px 2px 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  &:hover {
+    border: 4px solid #ffffff;
+    font-size: 1.1rem;
+  }
+`;
 
-const NewVideo= () => {
+const NewVideo = () => {
+  const gameContext = useGamesContext();
 
-    const gameContext = useGamesContext()
+  return (
+    <StyledNewVideoContainer>
+      <StyledTitle> NOVO VÍDEO </StyledTitle>
+      <StyledParagraph>
+        Preencha todo o formulário para criar um novo vídeo
+      </StyledParagraph>
+      <StyledFormContainer>
+        <Form />
+      </StyledFormContainer>
+      <StyledNewCategoryButton onClick={() => gameContext.categoryModal(true)}>
+        Novo Sistema
+      </StyledNewCategoryButton>
+      <AddCategoryModal />
+    </StyledNewVideoContainer>
+  );
+};
 
-    return(
-        <StyledNewVideoContainer>
-            <StyledTitle> NOVO VÍDEO </StyledTitle>
-            <StyledParagraph>Preencha todo o formulário para criar um novo vídeo</StyledParagraph>
-            <StyledFormContainer>
-                <StyledSubTitle>CRIAR VIDEO</StyledSubTitle>
-                <Form />
-            </StyledFormContainer>
-            <StyledNewCategoryButton onClick={() => gameContext.categoryModal(true)}>
-                Novo Sistema
-            </StyledNewCategoryButton>
-            <AddCategoryModal />
-        </StyledNewVideoContainer>
-    )
-}
-
-export default NewVideo
+export default NewVideo;

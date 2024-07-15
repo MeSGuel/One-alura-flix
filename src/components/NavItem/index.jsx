@@ -17,10 +17,18 @@ const StyledNavDiv = styled.div`
         border: 2px solid #2271D1;
         border-radius: 50px;
         padding: 6px 20px;
-        background: #2271D13D;
         color:#2271D1;
         font-weight: 900;
         font-size: 1.25rem;
+        cursor: pointer;
+    }
+
+    p:hover {
+        border: 3px solid #2271D1;
+        font-size: 1.3rem;
+    }
+    img:hover {
+        width: 60px;
     }
 `
 
@@ -38,7 +46,6 @@ const NavItem = ({url, image, activeImage, children, reverse}) => {
         ?  (activeRoute === "/" || activeRoute ==="/newvideo")
                 ? <StyledNavDiv style={reverse ? {flexDirection: "row-reverse"} : {flexDirection: "row" }}>  
                     <p>
-                        <img src={activeImage} />
                         {children}
                     </p>
                     <Link to={url}>

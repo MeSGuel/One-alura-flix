@@ -4,6 +4,7 @@ import NewVideo from "./pages/NewVideo"
 import Player from "./pages/Player"
 import NotFound from "./pages/NotFound"
 import BasePage from "./pages/BasePage"
+import Footer from "./components/Footer"
 
 
 function AppRoutes() {
@@ -15,7 +16,9 @@ function AppRoutes() {
                     <Route path="newvideo" element={<NewVideo />}></Route>
                     <Route path=":id" element={<Player />}></Route>
                     <Route path="*" element={<NotFound />}></Route>
+                    <Route path="/" element={<Footer />}></Route>
                 </Route>
+
             </Routes>
         </BrowserRouter>
     )

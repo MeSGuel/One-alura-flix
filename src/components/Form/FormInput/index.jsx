@@ -14,7 +14,8 @@ const StyledFormInput = styled.fieldset`
 
 const StyledLabel = styled.label`
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 6px;
     color: #FFFFFF;
     &.invalid{
         color: #AA0000;
@@ -30,10 +31,12 @@ const StyledInput = styled.input`
     color: #FFFFFF;
     border: 3px solid ${(props) => props.$color};
     border-radius: 15px;
-    padding-left: 10px;
+    padding: 15px 15px;
     outline: none;
     &::placeholder{
-        color:#A5A5A5
+        color:#b4a9a9;
+        font-weight: 600;
+        letter-spacing: 3px;
     }
     &.invalid{
         border: 3px solid #AA0000;

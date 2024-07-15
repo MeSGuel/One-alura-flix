@@ -43,6 +43,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-family: "Roboto", sans-serif;
 	display: flex;
 	flex-direction: column;
 	line-height: 1;
@@ -50,6 +51,7 @@ body {
 	color: var(--branco);
 	min-height: 100vh;
 }
+
 ol, ul {
 	list-style: none;
 }

@@ -4,13 +4,14 @@ const CategoriaTituloEstilizada = styled.h2`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 290px;
+    width: 270px;
     height: 70px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-size: 1.5rem;
     text-align: center;
     border-radius: 15px;
+    text-shadow: 1px 3px 1px black; 
     background-color: ${(props) => props.$bgColor};
     margin-bottom: 40px;
     @media screen and (min-width: 1024px){

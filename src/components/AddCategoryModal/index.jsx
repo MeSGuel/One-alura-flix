@@ -14,9 +14,8 @@ const Overlay = styled.div`
 `;
 
 const StyledDialog = styled.dialog`
-  position: absolute;
-  top: 0px;
-  left: 0%;
+  position: fixed;
+  top: 50px;
   width: 374px;
   background-color: #03122f;
   padding: 70px 0 60px 0;

@@ -10,38 +10,45 @@ const StyledBanner = styled.div`
         justify-content: space-between;
         align-items: center;
         gap: 24px;
-        width: 100%;
+        max-width: 96%;
         height: 500px;
-        margin: 20px 0;
-        padding: 0 40px;
-        background:linear-gradient(#0012338F,#0012338F),url(${(props) => props.$cover});
+        margin: 20px auto;
+        padding: 0 30px;
+        background:linear-gradient(#000000ea,#2b46752f),url(${(props) => props.$cover});
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        border: 4px solid #6BD1FF;
-        cursor: pointer;
+        border: 2px solid #6BD1FF;
+        border-radius: 20px;
         div{
             display: flex;
             flex-direction: column;
             width: 100%;
+            text-shadow: 2px 1px 1px black; 
 
         }
         h3{
-            font-family: "Roboto", sans-serif;
             font-size: 3rem;
             margin: 20px 0;
+            text-shadow: 2px 5px 1px black; 
         }
         p{
-            font-family: "Roboto", sans-serif;
             font-size: 1.125rem;
-            font-weight: 300;
-            color: #F5F5F5;
-            text-align: justify;
+            font-weight: 500;
+            letter-spacing: 3px;
+            line-height: 24px;
+            color: #ffffff;
+            text-shadow: 1px 3px 1px black; 
         }
         img{
             width: 100%;
-            max-width: 300px;
+            max-width: 500px;
             align-self: center;
+            border-radius: 30px;
+            border: 5px solid white;
+        }
+        img:hover {
+            border: 7px solid white;
         }
     }
 `
@@ -60,18 +67,18 @@ const Banner = () =>{
     const categoryColor = bannerGameCategory[0].color
     
     return(
-        <Link to={`/${bannerGame.id}`}>
             <StyledBanner $cover={bannerGame.cover}>
                 <div>
                         <CategoryTitle color={categoryColor}>{bannerGame.system}</CategoryTitle>
                         <h3>{bannerGame.title}</h3>
                         <p>{bannerGame.description}</p>
                 </div>
-                <div>
-                    <img src={bannerGame.cover} alt={bannerGame.title} />
-                </div>
+                <Link to={`/${bannerGame.id}`}>
+                    <div>
+                        <img src={bannerGame.cover} alt={bannerGame.title} />
+                    </div>
+                </Link>
             </StyledBanner>
-        </Link>
     )
 }
 

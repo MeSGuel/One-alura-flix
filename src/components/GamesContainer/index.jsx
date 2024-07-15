@@ -7,9 +7,9 @@ const StyledGamesContainer = styled.main`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
     width: 100%;
-    margin: 40px 0;
-    padding: 0 10px;
+    padding: 10px 15px;
 `
 
 const GamesContainer = () =>{

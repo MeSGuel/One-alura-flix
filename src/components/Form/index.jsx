@@ -8,10 +8,9 @@ import { useEffect, useState } from "react"
 const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 40px;
     width: 100%;
-    max-width:575px;
-    margin: 0 auto;
 `
 
 const StyledButtonContainer = styled.div`
@@ -33,11 +32,16 @@ const StyledFormButton = styled.button`
     font-size: 1.25rem;
     font-weight: 900;
     color:#FFFFFF;
-    border: 3px solid #2271D1;
+    box-shadow: 1px 2px 1px 1px black;
     border-radius: 15px;
+    cursor: pointer;
     &.white{
         border: 3px solid #FFFFFF;
     }
+    &:hover {
+    border: 4px solid #ffffff;
+    font-size: 1.3rem;
+  }
 `
 
 const Form = ({method, game}) =>{
