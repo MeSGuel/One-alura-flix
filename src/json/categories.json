@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "system": "PC",
+      "color": "#6BD1FF"
+    },
+    {
+      "id": 2,
+      "system": "Nintendo Switch",
+      "color": "#00C86F"
+    },
+    {
+      "id": 3,
+      "system": "PlayStation 4",
+      "color": "#FFBA05"
+    },
+    {
+      "id": 4,
+      "system": "Sega DreamCast",
+      "color": "#85FFAC"
+    },
+    {
+      "id": 5,
+      "system": "Nintendo 3DS",
+      "color": "#993428"
+    }
+]

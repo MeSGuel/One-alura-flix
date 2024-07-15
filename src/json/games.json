@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Papers Please",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239030/header.jpg?t=1678266428",
+    "link": "https://www.youtube.com/embed/DmqkpRaSg2g?si=LgIy7URA2-N9Rpr8",
+    "system": "PC",
+    "description": "Congratulações. A loteria de outubro foi concluída. Seu nome foi selecionado.Compareça ao Ministério da Admissão no Posto da Fronteira de Grestin para relocação imediata.Um apartamento será providenciado para você e sua família em Grestin Leste.Glória à Arstotzka."
+  },
+  {
+    "id": 3,
+    "title": "Mega Man 11",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/742300/header.jpg?t=1701220165",
+    "link": "https://www.youtube.com/embed/FVSvd7Qnkq0",
+    "system": "Nintendo Switch",
+    "description": "Mega Man está de volta à ação! A mais nova entrada na série que vendeu milhões mistura a clássica desafiadora ação de plataforma 2D com um novo estilo visual. O novo sistema de equipamento duplo adiciona uma novidade à satisfatória jogabilidade pela qual a série é conhecida."
+  },
+  {
+    "id": 4,
+    "title": "God of War III Remastered",
+    "cover": "https://image.api.playstation.com/vulcan/img/rnd/202010/2917/oqIXDTKAcEOwAPzM7GhEZ0rW.jpg",
+    "link": "https://www.youtube.com/embed/4z93rQGZP1Y",
+    "system": "PlayStation 4",
+    "description": "God of War III Remasterizado é o jogo para um jogador aclamado pela crítica que permite ao jogador assumir o papel do destemido ex-guerreiro espartano Kratos, em sua ascensão das profundezas obscuras de Hades para escalar as altitudes do Monte Olimpo e buscar sua vingança sangrenta contra aqueles que o traíram."
+  },
+  {
+    "id": 5,
+    "title": "Fable Anniversary",
+    "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/288470/header.jpg?t=1577393306",
+    "link": "https://www.youtube.com/embed/cQwFCnibkhM",
+    "system": "PC",
+    "description": "Para cada escolha uma consequencia. Totalmente Remasterizado com visuais HD, Fable Anniversary é uma incrível recaptulação do jogo original that vai agradar os fans e novos jogadores! A nova dificuldade heróica vai testar a fervor até os jogadores mais aficcionados."
+  },
+  {
+    "id": 6,
+    "title": "Super Mario 3D Land",
+    "cover": "https://www.thecoverproject.net/uploads/pending/3ds.supermario3dland_US.1718405691905643201_thumb.jpg",
+    "link": "https://www.youtube.com/embed/TzIgKFBhfyc?si=Tw3_x6jupM7Ki3PI",
+    "system": "Nintendo 3DS",
+    "description": "Este jogo é baseado fortemente no original Super Mario Bros video game. Upgrades em Super Mario Land 3D incluem Super Mario, o que aumenta o tamanho ea saúde do Mario, Fire Mario, que permite que Mario atirar bolas de fogo, e Tanooki Mario, o que lhe permite executar um ataque de giro e vibração no ar."
+  },
+  {
+    "id": 7,
+    "title": "New Super Mario Bros. 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/3/3e/NewSuperMarioBros2.png",
+    "link": "https://www.youtube.com/embed/RLPhf6WKP88?si=cN2kPrrlcQxq08gB",
+    "system": "Nintendo 3DS",
+    "description": "Em New Super Mario Bros. 2, cada nível está cheio de ouro, moedas jorram pelos canos, inimigos dourados deixam uma trilha de moedas para trás e canos de ouro transportam Mario para cavernas cheias de tesouros."
+  },
+  {
+    "id": 8,
+    "title": "Liberation Maiden",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/7/75/Liberation_Maiden_cover.png",
+    "link": "https://www.youtube.com/embed/IOTHgHIGqZw?si=FQbceKfxQ3O0E1CE",
+    "system": "Nintendo 3DS",
+    "description": "Liberation Maiden se passa em um Japão futurista chamado de New Japan. O país, abundante em produção de energia, é atacado por um grupo terrorista chamado The Dominion, que tem o objetivo de roubar toda a energia do lugar. Nesse meio tempo, o presidente é assassinado e sua filha, Shoko, assume seu cargo."
+  },
+  {
+    "id": 9,
+    "title": "Kid Icarus: Uprising",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/9/97/Kid_Icarus-Uprising_logo.jpg",
+    "link": "https://www.youtube.com/embed/YyUMXFprsZs?si=N9zNS7exGJAQ7-DZ",
+    "system": "Nintendo 3DS",
+    "description": "Kid Icarus Uprising é uma sequência direta ao jogo clássico NES, e ocorre 25 anos após o Kid Icarus original. O enredo é, na verdade dividido em dois arcos de história, o primeiro dos quais dispõe a batalha contra Medusa e seus asseclas de retorno, enquanto a segunda narra a ameaça dos deuses, Hades e Viridi contra a raça humana. No primeiro arco da história, Medusa foi revivida, e mais uma vez tenta erradicar os mortais, enquanto busca vingança contra Pit e Palutena."
+  },
+  {
+    "id": 10,
+    "title": "The Legend of Zelda: A Link Between Worlds",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/1/1b/The_Legend_of_Zelda_A_Link_Between_Worlds_NA_cover.jpg",
+    "link": "https://www.youtube.com/embed/rjldUy7F_Zs?si=7JIVeYGHhUqfGecD",
+    "system": "Nintendo 3DS",
+    "description": "The Legend of Zelda: A Link Between Worlds apresenta um novíssimo conjunto de quebra-cabeças e masmorras. Desta vez, Link move-se entre paredes como se estivesse desenhado nelas, o que alterará completamente o teu ponto de vista, permitindo-te pensar de novas formas para resolveres novos quebra-cabeças."
+  },
+  {
+    "id": 11,
+    "title": "X-Men Origin: Wolverine",
+    "cover": "https://upload.wikimedia.org/wikipedia/en/a/aa/X-Menoriginsvideo_game.jpg",
+    "link": "https://www.youtube.com/embed/Ow-yJdXBdBs?si=52XUt01nURgBzMms",
+    "system": "PC",
+    "description": "O jogo segue a história do filme, mostrando (de uma forma bem mais resumida) o passado romântico e violento do Wolverine, pondo em foco as antigas missões na África e o surgimento da Arma X. Ao longo do jogo, o seu principal objetivo se torna buscar vingança pela falsa morte de sua amada."
+  },
+  {
+    "id": 12,
+    "title": "Outlast 2",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/8/8a/Outlast_2_Cover_Art.jpg",
+    "link": "https://www.youtube.com/embed/fbGy57vhcms?si=0_Fdff6TRlPMVl3P",
+    "system": "PC",
+    "description": "Outlast 2 é a sequela do aclamado jogo de horror de sobrevivência, Outlast. Situado no mesmo universo do primeiro jogo mas com personagens e um cenário diferentes, Outlast 2 é uma nova e retorcida viagem às profundezas da mente humana e aos segredos nela ocultos."
+  },
+  {
+    "id": 13,
+    "title": "Limbo",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/8/8c/Capa_de_Limbo.jpg",
+    "link": "https://www.youtube.com/embed/zaonmJxFQxk?si=LDwzzQ3Uhdyrn1nM",
+    "system": "Nintendo Switch",
+    "description": "Limbo é um sidescroller 2D, incorporando um sistema de física que administra os objetos ambientais e o personagem do jogador. O jogador guia um menino anônimo através de ambientes e armadilhas perigosas enquanto procura por sua irmã mais velha."
+  },
+  {
+    "id": 14,
+    "title": "Resident Evil 4",
+    "cover": "https://i.pinimg.com/736x/81/91/8f/81918f94bb9006d586ed794e32c0e151.jpg",
+    "link": "https://www.youtube.com/embed/AzvaN_jA1Ak?si=tyLqDe8-53Q0poyT",
+    "system": "Nintendo Switch",
+    "description": "Seis anos após os eventos de Resident Evil 2, Leon Kennedy, sobrevivente de Raccoon City, foi enviado a um vilarejo isolado na Europa para investigar o desaparecimento da filha do presidente dos Estados Unidos. O que ele descobre lá é diferente de tudo o que ele já enfrentou antes."
+  },
+  {
+    "id": 15,
+    "title": "Shadow of the Colossus",
+    "cover": "https://upload.wikimedia.org/wikipedia/pt/6/66/ShadowOfTheColossusGH.jpg",
+    "link": "https://www.youtube.com/embed/r_ST15Ie-Ts?si=4fVRCbztQ8QY4dPE",
+    "system": "PlayStation 4",
+    "description": "SHADOW OF THE COLOSSUS é uma jornada espetacular por terras antigas em busca de feras gigantes. Armado com uma espada e um arco, explore os vastos terrenos e revele cada Colossus, cada um com um desafio único para testar sua inteligência, determinação e habilidade."
+  }
+]
